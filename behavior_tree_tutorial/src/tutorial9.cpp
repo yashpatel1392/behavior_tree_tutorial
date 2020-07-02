@@ -69,4 +69,5 @@ int main() {
     while (tree.root_node->executeTick() == NodeStatus::RUNNING) {
         std::this_thread::sleep_for(std::chrono::milliseconds(10));
     }
+    return 0;
 }
