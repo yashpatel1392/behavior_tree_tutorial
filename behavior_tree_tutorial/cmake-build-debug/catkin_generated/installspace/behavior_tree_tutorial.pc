@@ -1,0 +1,8 @@
+prefix=/usr/local
+
+Name: behavior_tree_tutorial
+Description: Description of behavior_tree_tutorial
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: roscpp behaviortree_cpp_v3

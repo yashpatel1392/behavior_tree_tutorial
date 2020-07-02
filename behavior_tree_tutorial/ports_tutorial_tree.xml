@@ -1,0 +1,11 @@
+<root>
+    <BehaviorTree>
+        <Sequence name="root">
+            <SaySomething     input="start thinking..." />
+            <ThinkWhatToSay   result="{the_answer}"/>
+            <SaySomething     input="{the_answer}" />
+            <SaySomething2    msg="SaySomething2 works too..." />
+            <SaySomething2    msg="{the_answer}" />
+        </Sequence>
+    </BehaviorTree>
+</root>
